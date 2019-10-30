@@ -4,7 +4,7 @@ This field allows you to add a trend metric to the index of a resource.
 
 ## Example
 
-![Example](example.png)
+![Example](https://raw.githubusercontent.com/demency/pulse-field/v1.0.0/example.png)
 
 ## Requirements
 
