@@ -32,7 +32,7 @@ class Pulse extends Field
      *
      * @var bool
      */
-    public $showOnDetail = false;
+    public $showOnDetail = true;
 
     /**
      * Resolve attribute for chart filling.
