@@ -25,7 +25,7 @@ composer require demency/pulse-field
 
 Add the following code in your own resource implementation:
 
-```
+```php
 <?php
 
 ...
@@ -47,6 +47,7 @@ class YourResource extends Resource {
             // 1. Add field implementation.
             // 2. Set trend instance as meta.
             // 3. Use first range or specify directly the range.
+            // 4. Add title for pulse unit, default is "Times"
             Pulse::make(__('Pulse'), 'id')
                 ->withMeta([
                     "trend" => $trend,
@@ -73,15 +74,19 @@ The following strings are available for translation:
 // in my case /resources/lang/vendor/nova/es.json
 {
     "Waiting for data": "Esperando información",
-    "Pulse": "Pulso"
+    "Times": "Veces"
 }
 ```
 
 ## To-do
 
-- [ ] Add details view implementation.
+- [x] Add details view implementation.
 
 ## Changelog
+
+### 1.1.0
+
+- Details view added.
 
 ### 1.0.0
 
