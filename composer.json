@@ -1,0 +1,38 @@
+{
+    "name": "demency/pulse-field",
+    "description": "A Laravel Nova field for Trend indexing.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "pulse"
+    ],
+    "authors": [
+        {
+            "name": "Ian Torres",
+            "email": "iantorres@outlook.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3",
+        "laravel/nova": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Demency\\PulseField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Demency\\PulseField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
