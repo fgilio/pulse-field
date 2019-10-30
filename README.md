@@ -1,6 +1,6 @@
 # Pulse Field
 
-This field allows you to add a trend metric to the index of a resource.
+This field allows you to add a trend metric to the index and details of a resource.
 
 ## Example
 
@@ -86,7 +86,7 @@ The following strings are available for translation:
 
 ### 1.1.0
 
-- Details view added.
+- Now this package support details view.
 
 ### 1.0.0
 
