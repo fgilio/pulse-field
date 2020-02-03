@@ -34,7 +34,7 @@ class YourResource extends Resource {
 
     ...
 
-    public function fields(Request $request)
+    public function fields(NovaRequest $request)
     {
         // Replace this variable with your own trend.
         $trend = (new YourOwnTrendClass());
