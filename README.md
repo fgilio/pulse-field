@@ -4,7 +4,7 @@ This field allows you to add a trend metric to the index and details of a resour
 
 ## Example
 
-![Example](https://raw.githubusercontent.com/demency/pulse-field/v1.0.0/example.png)
+![Example](https://raw.githubusercontent.com/demency/pulse-field/v1.1.0/example.png)
 
 ## Requirements
 
